@@ -8,12 +8,8 @@ class School
     @roster = {}
   end
   
-private
- 
-def clear_roster
-  @roster.clear
-end
-
-
+def add_student
+  
+end 
 
 end
