@@ -26,6 +26,7 @@ end
     self.roster[grade]
   end 
   
-  def
-  
+  def sort 
+    self.roster.each do 
+end 
 end
