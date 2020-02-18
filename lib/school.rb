@@ -7,5 +7,5 @@ class School
     @name = name
   
   end
-  
+  def s
 end
