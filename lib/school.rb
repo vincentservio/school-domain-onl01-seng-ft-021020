@@ -28,6 +28,6 @@ end
   
   def sort 
     self.roster.each do |grade, student|
-      [students.sort]
+      [students.sort!]
 end 
 end
