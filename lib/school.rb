@@ -22,7 +22,7 @@ class School
 
 end 
 
-  def grade
+  def grade(grade)
     self.roster[grade]
   end 
   
