@@ -5,7 +5,7 @@ class School
  
   def initialize(name)
     @name = name
-    @roster = {}
+    @roster = Hash.new{h, k} h[k] = []}
   end
   def roster 
     @roster
