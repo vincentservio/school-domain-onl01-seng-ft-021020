@@ -7,16 +7,19 @@ class School
     @name = name
     @roster = Hash.new{|h, k| h[k] = []}
   end
-  def roster 
-    @roster
-end  
-def add_student(name, grade)
- if roster.has_key?(grade)
-   roster[grade] << name
-else 
-  roster[grade] = [name]
   
-end
+    def roster 
+      @roster
+  end  
+
+      def add_student(name, grade)
+       if roster.has_key?(grade)
+         roster[grade] << name
+      else 
+        roster[grade] = [name]
+        
+      end
+
 end 
 
   def grade
