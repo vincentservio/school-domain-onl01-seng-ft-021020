@@ -17,4 +17,6 @@ else
 end
 end 
 
+  def grade
+  end 
 end
