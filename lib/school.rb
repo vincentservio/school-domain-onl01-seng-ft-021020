@@ -7,7 +7,9 @@ class School
     @name = name
     @roster = {}
   end
-
+  
+private
+ 
 def clear_roster
   @roster.clear
 end
